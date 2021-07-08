@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+    </header>
+<img src="img/logo 1.png" class="logo">
+    <h1>Nombre Tienda</h1>
+
+    <nav>
+        <ul>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="registrarme.html">Registrarme</a></li>
+        <li><a href="ingresar.html">Ingresar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="principal">
+            <section>
+                <h2>Añadí tu super!</h2>
+                <p class="subt">Agregá tu personaje favorito completando las opciones.</p>
+            </section>
+
+            <section class="columnas">
+                <section>
+                <form action="#" class="col1">
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <br>
+                    <textarea name="descripcion" id="" cols="30" rows="13" placeholder="Descripción"></textarea>
+                </form>
+                </section>
+
+                <section>
+                <form action="#" class="col1">
+                    <div>*Especie</div>
+                    <select name="Especie" id="Especie">
+                    <option value="ag">Agua</option>
+                    <option value="fu">Fuego</option>
+                    <option value="ti">Tierra</option>
+                    <option value="ai">Aire</option>
+                    </select>
+                    
+                    <div>Agregar foto</div>
+                    <input type="file" name="foto" id="foto" placeholder="Seleccionar archivo" class="arc">
+                    
+                    <br>
+                    <div>Poderes</div>
+                    <label><input type="checkbox" name="vo" id="vo" class="det">Volar</label>
+                    <label><input type="checkbox" name="su" id="su" class="det">SuperInteligencia</label>
+                    <label><input type="checkbox" name="vi" id="vi" class="det">Vista de rayo láser</label>
+                    <label><input type="checkbox" name="bi" id="bi" class="det">Billetera gorda</label>
+
+                    <br>
+                    <hr>
+
+                    <div>Tipo de personaje</div>
+                    <label><input type="radio" name="per" id="h" class="det">Héroe / Heroína</label>
+                    <label><input type="radio" name="per" id="v" class="det">Villano / Villana</label>
+                </form>
+                </section>
+            </section>
+        
+            <button type="submit">Añadir</button>    
+
+        </div>
+    </main>
+
+    <footer>
+        <div>Todos los derechos reservados a FRONT END 1</div>
+    </footer>
+
+</body>
+</html>
