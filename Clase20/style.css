@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background: #222222;
+}
+
+nav {
+    padding: 23px 35px 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+display: none;
+font-weight: bold;
+font-size: 1rem;
+line-height: 19px;
+color: #F3F3F3;
+}
+
+.cabecera {
+    width: 100%;
+    height: 512px;
+    background: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.des {
+    color: #D01418;
+    font-size: 2.5rem;
+}
+
+.con {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+button {
+    margin-top: 30px;
+    width: 220px;
+    height: 61px;
+    background: #D01418;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #F3F3F3;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #949fa7;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 35px;
+    padding: 20px;
+    color: #000000;
+}
+
+.contenedor {
+    width: 240px;
+    height: 322px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.linea {
+position: relative;
+left: -25px;
+top: 5px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 15px;
+    color: #000000;
+    text-align: left;
+    margin-top: 5px;
+}
+
+h5 {
+    font-size: 0.7em;
+    line-height: 12px;
+    color: #619D00;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner1 {
+    background-image: url(img/banner\ 1.png);
+    width: 288px;
+    height: 108px;
+    background-size: contain;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #F3F3F3;
+    text-align: right;
+    padding: 45px 30px 0 0;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.banner2 {
+    background-image: url(img/banner\ 2.png);
+    width: 288px;
+    height: 108px;
+    background-size: contain;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #F3F3F3;
+    text-align: right;
+    padding: 45px 30px 0 0;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+footer {
+    width: 100%;
+    height: 191px;
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.red {
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #F3F3F3;
+    position: relative;
+    top: -15px;
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.final {
+    background: #949fa7;
+    height: 25px;
+    font-size: 0.7rem;
+    line-height: 12px;
+    color: #000000;
+    text-align: center;
+    padding-top: 6px;
+}
+
+@media (min-width: 480px) {
+
+    ul {
+        width: 336px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .li {
+        display: none;
+    }
+
+    .contenido {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .otrocontenido {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;     
+    }
+
+    .banner1, .banner2 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+    }
+}
