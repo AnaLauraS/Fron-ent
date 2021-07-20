@@ -1,0 +1,74 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 5em;
+  background-color: black;
+}
+
+header h1 {
+  color: #98d6e9;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer {
+  color: #98d6e9;
+  background-color: black;
+  height: 3em;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  color: #4315c4;
+  margin-top: 10px;
+}
+
+section h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80vw;
+  background-color: #cdc9f7;
+}
+
+section ul {
+  padding: 20px 20vw;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=stilo.css.map */
