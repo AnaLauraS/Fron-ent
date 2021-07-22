@@ -1,0 +1,140 @@
+* {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+$bgp: #03faee;
+$bgs: #f8f8f8;
+$color-primary: #8b8b8b;
+$shadow: #92f7f2;
+
+header {
+    padding-top: 10px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: 10px;
+    position: relative;
+    left: -20px;
+    padding-bottom: 20px;
+    div {
+        background-color: $bgp;
+        position:absolute;
+        top: 0px;
+        height: 40px;
+        width: 220px;
+        z-index: -1;
+    }
+}
+
+h3 {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    color: $color-primary;
+    position: relative;
+    left: -20px;
+    padding-bottom: 20px;
+}
+
+button {
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: $bgp;
+    border: dashed black 0.4px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.banner {
+    position: relative;
+    top: -50px;
+}
+
+main {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-bottom: 50px;
+
+    div{
+        background-color: $bgs;
+        height: 280px;
+        width: 300px;
+        border-radius: 10px;
+        padding-left: 2px;
+    
+        button {
+            background-color: $bgs;
+            border-radius: 50%;
+            height: 36px;
+            width: 36px;
+            border: solid 0.2px;
+            text-align: center;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            padding: 0;
+            font-size: 14px;
+            box-shadow: -5px 0px $shadow;
+        }
+        div {
+            background-color: $bgp;
+            position:relative;
+            height: 10px;
+            width: 20px;
+            z-index: 0;
+            border-radius: 0;
+            top: 25px;
+            left: 20px;
+        }
+
+        h4 {
+            padding-top: 18px;
+            padding-bottom: 8px;   
+            position: relative;
+            z-index: 1;
+            font-weight: bolder;   
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        border-radius: 50%;
+        box-shadow: -5px 0px 10px $shadow;
+    }
+}
